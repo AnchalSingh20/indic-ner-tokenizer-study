@@ -1,0 +1,18 @@
+{
+  "phi-4-mini": {
+    "train_seconds": 992.4,
+    "peak_vram_gb": 13.18,
+    "trainable": 23090183,
+    "total": 2248520718,
+    "train_tokens": 1855840.0,
+    "tokens_per_second": 1870.1
+  },
+  "qwen2.5-3b": {
+    "train_seconds": 1479.8,
+    "peak_vram_gb": 27.29,
+    "trainable": 29947911,
+    "total": 1728634894,
+    "train_tokens": 3617844.0,
+    "tokens_per_second": 2444.9
+  }
+}

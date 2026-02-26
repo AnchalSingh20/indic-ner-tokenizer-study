@@ -1,0 +1,79 @@
+[
+  {
+    "lang": "hi",
+    "n_sentences": 2000,
+    "n_words": 45355,
+    "phi-4-mini_tokens": 93569,
+    "phi-4-mini_fertility": 2.063,
+    "phi-4-mini_chars_per_token": 2.396,
+    "qwen2.5-3b_tokens": 182340,
+    "qwen2.5-3b_fertility": 4.02,
+    "qwen2.5-3b_chars_per_token": 1.23
+  },
+  {
+    "lang": "mr",
+    "n_sentences": 2000,
+    "n_words": 24961,
+    "phi-4-mini_tokens": 67811,
+    "phi-4-mini_fertility": 2.717,
+    "phi-4-mini_chars_per_token": 2.239,
+    "qwen2.5-3b_tokens": 129130,
+    "qwen2.5-3b_fertility": 5.173,
+    "qwen2.5-3b_chars_per_token": 1.176
+  },
+  {
+    "lang": "bn",
+    "n_sentences": 2000,
+    "n_words": 32263,
+    "phi-4-mini_tokens": 82892,
+    "phi-4-mini_fertility": 2.569,
+    "phi-4-mini_chars_per_token": 2.173,
+    "qwen2.5-3b_tokens": 162588,
+    "qwen2.5-3b_fertility": 5.039,
+    "qwen2.5-3b_chars_per_token": 1.108
+  },
+  {
+    "lang": "ta",
+    "n_sentences": 2000,
+    "n_words": 24005,
+    "phi-4-mini_tokens": 78207,
+    "phi-4-mini_fertility": 3.258,
+    "phi-4-mini_chars_per_token": 2.262,
+    "qwen2.5-3b_tokens": 174209,
+    "qwen2.5-3b_fertility": 7.257,
+    "qwen2.5-3b_chars_per_token": 1.015
+  },
+  {
+    "lang": "te",
+    "n_sentences": 2000,
+    "n_words": 20886,
+    "phi-4-mini_tokens": 65720,
+    "phi-4-mini_fertility": 3.147,
+    "phi-4-mini_chars_per_token": 2.086,
+    "qwen2.5-3b_tokens": 191947,
+    "qwen2.5-3b_fertility": 9.19,
+    "qwen2.5-3b_chars_per_token": 0.714
+  },
+  {
+    "lang": "pa",
+    "n_sentences": 2000,
+    "n_words": 39254,
+    "phi-4-mini_tokens": 110399,
+    "phi-4-mini_fertility": 2.812,
+    "phi-4-mini_chars_per_token": 1.699,
+    "qwen2.5-3b_tokens": 260578,
+    "qwen2.5-3b_fertility": 6.638,
+    "qwen2.5-3b_chars_per_token": 0.72
+  },
+  {
+    "lang": "gu",
+    "n_sentences": 2000,
+    "n_words": 26519,
+    "phi-4-mini_tokens": 70925,
+    "phi-4-mini_fertility": 2.674,
+    "phi-4-mini_chars_per_token": 2.061,
+    "qwen2.5-3b_tokens": 200323,
+    "qwen2.5-3b_fertility": 7.554,
+    "qwen2.5-3b_chars_per_token": 0.73
+  }
+]
