@@ -163,11 +163,18 @@ CUDA 12.4, transformers 5.17.
 
 ## Limitations
 
-- **Absolute F1 is low** — 36% on Hindi at 4k sentences, 41% at 20k. Published
-  encoder baselines on naamapadam reach far higher. Two reasons: this uses
-  0.4–2% of the 985k available Hindi sentences, and a decoder LM with a
+- **Absolute F1 is low** — 36% on Hindi at 4k sentences, 41% at 20k. Three
+  reasons. First, naamapadam's *training* labels are machine-generated: entities
+  were projected from the English side of a parallel corpus onto the Indic side
+  by word alignment, so they carry alignment noise, while the *test* sets are
+  manually annotated. Training on noisy labels and scoring against clean ones
+  caps the achievable score regardless of budget. Second, this uses only 0.4–2%
+  of the 985k available Hindi sentences. Third, a decoder LM with a
   token-classification head is not the natural architecture for NER. The study
   is a controlled comparison under a fixed budget, not a leaderboard attempt.
+  The train/test annotation asymmetry cuts the right way for the comparison:
+  because the test labels are human-made, the evaluation measures NER quality
+  rather than which model better fits the projection noise.
 - **Seven languages is a small n**, and they are not independent — Hindi and
   Marathi share Devanagari. The correlation is suggestive, not conclusive.
 - **The 20k convergence check is a single seed** per model.
